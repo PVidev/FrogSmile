@@ -23,15 +23,15 @@ const Footer: React.FC = () => {
             <div className="space-y-2">
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-primary-400" />
-                <span className="text-gray-400 dark:text-gray-500 text-sm">peyo.videv@gmail.com</span>
+                <span className="text-gray-400 dark:text-gray-500 text-sm">office@frogsmile.com</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-primary-400" />
-                <span className="text-gray-400 dark:text-gray-500 text-sm">+359 xxx xxx xxx</span>
+                <span className="text-gray-400 dark:text-gray-500 text-sm">+359 886 096 477</span>
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4 text-primary-400" />
-                <span className="text-gray-400 dark:text-gray-500 text-sm">Sofia, Bulgaria</span>
+                <span className="text-gray-400 dark:text-gray-500 text-sm">{t('companyName')}, Sofia, Bulgaria</span>
               </div>
             </div>
           </div>
@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-gray-800 dark:border-gray-700 mt-8 pt-8 text-center">
           <p className="text-gray-400 dark:text-gray-500 text-sm">
-            © 2024 FrogSmile. {t('allRightsReserved')}
+            © 2025 FrogSmile. {t('allRightsReserved')} | Created by <a href="https://pvidev-design.com" target="_blank" rel="noopener noreferrer" className="text-primary-400 hover:text-primary-300 transition-colors">PVidev-Design</a>
           </p>
         </div>
       </div>

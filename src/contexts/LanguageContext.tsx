@@ -34,7 +34,7 @@ const translations = {
     
     // About
     aboutTitle: 'About Our Company',
-    aboutDescription: 'FrogSmile is a dynamic software development company with over 5 years of experience in creating innovative digital solutions. We specialize in delivering high-quality applications that transform businesses and enhance user experiences.',
+    aboutDescription: 'FrogSmile is a dynamic software development company founded in 2018 with over 7 years of experience in creating innovative digital solutions. We specialize in delivering high-quality applications that transform businesses and enhance user experiences.',
     ourMission: 'Our Mission',
     missionText: 'To provide exceptional software solutions that drive business growth and create meaningful user experiences through innovative technology and expert craftsmanship.',
     ourVision: 'Our Vision',
@@ -86,6 +86,7 @@ const translations = {
     // Contact
     contactTitle: 'Get In Touch',
     contactSubtitle: 'Ready to start your next project? Contact us today!',
+    companyName: 'FrogSmile Ltd.',
     name: 'Name',
     email: 'Email',
     subject: 'Subject',
@@ -141,7 +142,7 @@ const translations = {
     
     // About
     aboutTitle: 'За Нашата Компания',
-    aboutDescription: 'FrogSmile е динамична компания за разработка на софтуер с над 5 години опит в създаването на иновативни цифрови решения. Специализираме се в доставката на висококачествени приложения, които трансформират бизнеса и подобряват потребителския опит.',
+    aboutDescription: 'FrogSmile е динамична компания за разработка на софтуер, създадена през 2018 година с над 7 години опит в създаването на иновативни цифрови решения. Специализираме се в доставката на висококачествени приложения, които трансформират бизнеса и подобряват потребителския опит.',
     ourMission: 'Нашата Мисия',
     missionText: 'Да предоставяме изключителни софтуерни решения, които движат растежа на бизнеса и създават значими потребителски преживявания чрез иновативни технологии и експертно майсторство.',
     ourVision: 'Нашата Визия',
@@ -193,6 +194,7 @@ const translations = {
     // Contact
     contactTitle: 'Свържете се с Нас',
     contactSubtitle: 'Готови ли сте да започнете следващия си проект? Свържете се с нас днес!',
+    companyName: 'ФрогСмайл ЕООД',
     name: 'Име',
     email: 'Имейл',
     subject: 'Тема',

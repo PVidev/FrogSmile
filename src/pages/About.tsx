@@ -7,7 +7,7 @@ const About: React.FC = () => {
 
   const stats = [
     { number: '50+', label: t('projectsCompleted') },
-    { number: '5+', label: t('yearsExperience') },
+    { number: '7+', label: t('yearsExperience') },
     { number: '30+', label: t('happyClients') },
     { number: '10+', label: t('technologies') }
   ];

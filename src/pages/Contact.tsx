@@ -24,7 +24,7 @@ const Contact: React.FC = () => {
       const body = encodeURIComponent(
         `Name: ${data.name}\nEmail: ${data.email}\n\nMessage:\n${data.message}`
       );
-      const mailtoLink = `mailto:peyo.videv@gmail.com?subject=${subject}&body=${body}`;
+      const mailtoLink = `mailto:office@frogsmile.com?subject=${subject}&body=${body}`;
       
       window.location.href = mailtoLink;
       reset();
@@ -66,7 +66,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 dark:text-white">{t('email')}</h3>
-                    <p className="text-gray-600 dark:text-gray-400">peyo.videv@gmail.com</p>
+                    <p className="text-gray-600 dark:text-gray-400">office@frogsmile.com</p>
                   </div>
                 </div>
 
@@ -76,7 +76,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 dark:text-white">{t('phone')}</h3>
-                    <p className="text-gray-600 dark:text-gray-400">+359 xxx xxx xxx</p>
+                    <p className="text-gray-600 dark:text-gray-400">+359 886 096 477</p>
                   </div>
                 </div>
 
@@ -86,7 +86,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 dark:text-white">{t('location')}</h3>
-                    <p className="text-gray-600 dark:text-gray-400">Sofia, Bulgaria</p>
+                    <p className="text-gray-600 dark:text-gray-400">{t('companyName')}, Sofia, Bulgaria</p>
                   </div>
                 </div>
               </div>
