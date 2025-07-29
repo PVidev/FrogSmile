@@ -22,7 +22,7 @@ const Home: React.FC = () => {
     {
       title: 'Analytics Dashboard',
       description: 'Real-time data visualization and reporting system',
-      image: 'https://images.pexels.com/photos/590020/pexels-photo-590020.jpg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://img.freepik.com/premium-vector/comprehensive-analytics-dashboard-ui-with-diverse-data-visualization-user-interface-analytics-dashboard-featuring-variety-graphs-charts-efficient-data-management-monitoring_924480-25.jpg',
       category: 'UI/UX'
     }
   ];
