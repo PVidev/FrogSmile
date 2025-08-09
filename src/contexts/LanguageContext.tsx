@@ -17,9 +17,9 @@ const translations = {
     contact: 'Contact',
     
     // Home
-    heroTitle: 'Innovative Software Solutions',
-    heroSubtitle: 'We create cutting-edge applications that transform businesses and enhance user experiences',
-    featuredProjects: 'Featured Projects',
+    heroTitle: 'Your Technology Partner for Strategic Energy Solutions',
+    heroSubtitle: 'We build secure, scalable and regulatory‑compliant systems for the energy sector. Technology partner of Balkan Gas Hub EAD since 2019.',
+    featuredProjects: 'Energy Solutions Highlights',
     getStarted: 'Get Started',
     learnMore: 'Learn More',
     webDevelopment: 'Web Development',
@@ -34,7 +34,7 @@ const translations = {
     
     // About
     aboutTitle: 'About Our Company',
-    aboutDescription: 'FrogSmile is a dynamic software development company founded in 2018 with over 7 years of experience in creating innovative digital solutions. We specialize in delivering high-quality applications that transform businesses and enhance user experiences.',
+    aboutDescription: 'FrogSmile Ltd. is a Bulgarian software company (founded in 2018) specializing in secure, sustainable and regulatory‑compliant information systems, including platforms for the energy sector. Since 2019 we have been the technology partner of Balkan Gas Hub EAD.',
     ourMission: 'Our Mission',
     missionText: 'To provide exceptional software solutions that drive business growth and create meaningful user experiences through innovative technology and expert craftsmanship.',
     ourVision: 'Our Vision',
@@ -63,7 +63,7 @@ const translations = {
     
     // Portfolio
     portfolioTitle: 'Our Portfolio',
-    portfolioSubtitle: 'Explore our diverse range of projects across different technologies',
+    portfolioSubtitle: 'Key deliveries for the energy market: market platforms, real‑time integrations, RMS and REMIT/IIP systems',
     allCategories: 'All',
     uiux: 'UI/UX',
     frontend: 'Front-End',
@@ -125,9 +125,9 @@ const translations = {
     contact: 'Контакти',
     
     // Home
-    heroTitle: 'Иновативни Софтуерни Решения',
-    heroSubtitle: 'Създаваме авангардни приложения, които трансформират бизнеса и подобряват потребителския опит',
-    featuredProjects: 'Избрани Проекти',
+    heroTitle: 'Вашият технологичен партньор за стратегически енергийни решения',
+    heroSubtitle: 'Изграждаме сигурни, устойчиви и регулаторно съвместими системи за енергийния сектор. Технологичен партньор на „Газов Хъб Балкан“ ЕАД от 2019 г.',
+    featuredProjects: 'Акценти от енергийните решения',
     getStarted: 'Започнете',
     learnMore: 'Научете Повече',
     webDevelopment: 'Уеб Разработка',
@@ -142,7 +142,7 @@ const translations = {
     
     // About
     aboutTitle: 'За Нашата Компания',
-    aboutDescription: 'FrogSmile е динамична компания за разработка на софтуер, създадена през 2018 година с над 7 години опит в създаването на иновативни цифрови решения. Специализираме се в доставката на висококачествени приложения, които трансформират бизнеса и подобряват потребителския опит.',
+    aboutDescription: '„ФрогСмайл“ ЕООД е българска софтуерна компания (основана през 2018 г.), специализирана в изграждането на сигурни, устойчиви и регулаторно съвместими информационни системи, включително за енергийния сектор. От 2019 г. сме технологичен партньор на „Газов Хъб Балкан“ ЕАД.',
     ourMission: 'Нашата Мисия',
     missionText: 'Да предоставяме изключителни софтуерни решения, които движат растежа на бизнеса и създават значими потребителски преживявания чрез иновативни технологии и експертно майсторство.',
     ourVision: 'Нашата Визия',
@@ -171,7 +171,7 @@ const translations = {
     
     // Portfolio
     portfolioTitle: 'Нашето Портфолио',
-    portfolioSubtitle: 'Разгледайте нашия разнообразен набор от проекти в различни технологии',
+    portfolioSubtitle: 'Ключови реализации за енергийния пазар: пазарни платформи, интеграции в реално време, RMS и REMIT/IIP системи',
     allCategories: 'Всички',
     uiux: 'UI/UX',
     frontend: 'Front-End',

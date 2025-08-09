@@ -90,7 +90,7 @@ export const projects: Project[] = [
       ],
       bg: [
         'Биометрична автентификация (пръстов отпечатък/лице)',
-        'Известия за транзакции в реalno време',
+        'Известия за транзакции в реалno време',
         'Баланс по сметка и история',
         'Превод на пари и плащане на сметки',
         'Проследяване на инвестиционно портфолио',
@@ -110,7 +110,7 @@ export const projects: Project[] = [
     id: 3,
     title: 'Analytics Dashboard',
     description: 'Real-time data visualization and reporting system',
-    image: 'https://images.pexels.com/photos/590020/pexels-photo-590020.jpg?auto=compress&cs=tinysrgb&w=800',
+    image: 'https://img.freepik.com/premium-vector/comprehensive-analytics-dashboard-ui-with-diverse-data-visualization-user-interface-analytics-dashboard-featuring-variety-graphs-charts-efficient-data-management-monitoring_924480-25.jpg',
     category: 'uiux',
     technologies: ['React', 'D3.js', 'Material-UI'],
     demoUrl: '#',
@@ -384,6 +384,180 @@ export const projects: Project[] = [
     results: {
       en: 'The design system reduced development time by 60% and improved design consistency across 15+ products. Designer-developer handoff time decreased by 70%.',
       bg: 'Дизайн системата намали времето за разработка с 60% и подобри последователността на дизайна в 15+ продукта. Времето за предаване между дизайнери и разработчици се намали с 70%.'
+    }
+  },
+  {
+    id: 10,
+    title: 'BGH Public Website',
+    description: 'Public portal with market information, registers, news and documents',
+    image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800',
+    category: 'frontend',
+    technologies: ['React', 'TypeScript', 'Tailwind CSS'],
+    demoUrl: 'https://www.balkangashub.bg',
+    githubUrl: '#',
+    overview: {
+      en: 'Public website and client area for Balkan Gas Hub EAD providing market data, registers, news, documentation and announcements by suppliers and market participants.',
+      bg: 'Публичен уебсайт и клиентска зона за „Газов Хъб Балкан“ ЕАД, предоставящи пазарни данни, регистри, новини, документация и обявления от доставчици и пазарни участници.'
+    },
+    features: {
+      en: [
+        'Public portal and client area',
+        'Market data and registers',
+        'News, regulatory updates and documents',
+        'Announcements by suppliers and participants'
+      ],
+      bg: [
+        'Публичен портал и зона за клиенти',
+        'Пазарни данни и регистри',
+        'Новини, регулаторни съобщения и документи',
+        'Обявления от доставчици и участници'
+      ]
+    },
+    challenges: {
+      en: 'High availability and content workflows with strict editorial controls and multilingual support.',
+      bg: 'Висока наличност и процеси по съдържание със строги редакционни контроли и многоезична поддръжка.'
+    },
+    results: {
+      en: 'Reliable access to market information and improved communication with participants.',
+      bg: 'Надежден достъп до пазарна информация и подобрена комуникация с участниците.'
+    }
+  },
+  {
+    id: 11,
+    title: 'BGH Core Information System',
+    description: 'Platform for transaction management, analytics and client services',
+    image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
+    category: 'fullstack',
+    technologies: ['Node.js', 'PostgreSQL', 'React', 'Redis'],
+    demoUrl: '#',
+    githubUrl: '#',
+    overview: {
+      en: 'Core platform for transaction management with client profiles, trade history, services, marketing information, and automated analytics and reporting.',
+      bg: 'Основна платформа за управление на сделки с клиентски профили, история на търговията, услуги, маркетингова информация и автоматизирани аналитични и справочни модули.'
+    },
+    features: {
+      en: [
+        'Client profiles and services',
+        'Trade history and analytics',
+        'Automated reports and references',
+        'Subscription-based support model'
+      ],
+      bg: [
+        'Клиентски профили и услуги',
+        'История на търговията и аналитика',
+        'Автоматизирани отчети и справки',
+        'Абонаментна поддръжка'
+      ]
+    },
+    challenges: {
+      en: 'Complex market processes and auditability requirements demanded robust domain modeling and traceability.',
+      bg: 'Сложни пазарни процеси и изисквания за проследимост наложиха стабилно домейн моделиране и следимост.'
+    },
+    results: {
+      en: 'Operational efficiency and transparency for market participants.',
+      bg: 'Оперативна ефективност и прозрачност за пазарните участници.'
+    }
+  },
+  {
+    id: 12,
+    title: 'Real-Time Integrations (Trayport/TSO)',
+    description: 'REST API integrations for real-time data exchange',
+    image: 'https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=800',
+    category: 'backend',
+    technologies: ['REST', 'Node.js', 'WebSockets'],
+    demoUrl: '#',
+    githubUrl: '#',
+    overview: {
+      en: 'Bidirectional communication with Trayport, the TSO and market participants: companies, orders and trades in real time.',
+      bg: 'Двупосочна комуникация с Trayport, ОПС и пазарните участници: компании, оферти и сделки в реално време.'
+    },
+    features: {
+      en: [
+        'Real-time REST/WebSocket integrations',
+        'Company, order and trade synchronization',
+        'Secure authenticated channels'
+      ],
+      bg: [
+        'Интеграции в реално време (REST/WebSocket)',
+        'Синхронизация на компании, оферти и сделки',
+        'Сигурни автентицирани канали'
+      ]
+    },
+    challenges: {
+      en: 'Low-latency processing, backpressure handling and resilience under variable load.',
+      bg: 'Ниска латентност, управление на backpressure и устойчивост при променливо натоварване.'
+    },
+    results: {
+      en: 'Reliable and timely market data exchange across systems.',
+      bg: 'Надежден и навременен обмен на пазарни данни между системите.'
+    }
+  },
+  {
+    id: 13,
+    title: 'Risk Management System (RMS) & Clearing',
+    description: 'Pre‑order validation integrated with KELER CCP',
+    image: 'https://images.pexels.com/photos/590020/pexels-photo-590020.jpg?auto=compress&cs=tinysrgb&w=800',
+    category: 'backend',
+    technologies: ['Node.js', 'Redis', 'PostgreSQL', 'REST'],
+    demoUrl: '#',
+    githubUrl: '#',
+    overview: {
+      en: 'RMS for pre‑order validation with real-time risk assessment, integrated with KELER CCP to support clearing and settlement processes of BGH.',
+      bg: 'RMS система за pre‑order validation с оценка на риска в реално време, интегрирана с KELER CCP за процесите по клиринг и сетълмент на ГХБ.'
+    },
+    features: {
+      en: [
+        'Real-time risk scoring',
+        'Pre‑order validation workflows',
+        'Integration with clearing house (KELER CCP)'
+      ],
+      bg: [
+        'Оценка на риска в реално време',
+        'Процеси за pre‑order validation',
+        'Интеграция с клирингова къща (KELER CCP)'
+      ]
+    },
+    challenges: {
+      en: 'Consistency and determinism under strict time constraints required careful architecture and testing.',
+      bg: 'Консистентност и детерминизъм при строги времеви ограничения изискваха прецизна архитектура и тестване.'
+    },
+    results: {
+      en: 'Secure and predictable clearing flows with auditable validation.',
+      bg: 'Сигурни и предвидими клирингови процеси с проследима валидация.'
+    }
+  },
+  {
+    id: 14,
+    title: 'REMIT Reporting & IIP Platform',
+    description: 'Automated REMIT trade reporting and IIP for ACER',
+    image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
+    category: 'backend',
+    technologies: ['Node.js', 'REST', 'Crypto', 'Queues'],
+    demoUrl: '#',
+    githubUrl: '#',
+    overview: {
+      en: 'Automated REMIT trade reporting and an IIP platform for publishing inside information to ACER with encrypted communication and high reliability.',
+      bg: 'Автоматизирано докладване на сделки по REMIT и IIP платформа за публикуване на вътрешна информация към ACER с криптирана комуникация и висока надеждност.'
+    },
+    features: {
+      en: [
+        'Automated ACER reporting',
+        'Inside Information Platform (IIP)',
+        'Encrypted, reliable communication'
+      ],
+      bg: [
+        'Автоматизирани ACER доклади',
+        'IIP платформа за вътрешна информация',
+        'Криптирана, надеждна комуникация'
+      ]
+    },
+    challenges: {
+      en: 'Strict compliance and continuity requirements demanded robust security and redundancy.',
+      bg: 'Строги изисквания за съвместимост и непрекъсваемост наложиха здрава сигурност и излишност.'
+    },
+    results: {
+      en: 'Guaranteed service continuity and regulatory compliance.',
+      bg: 'Гарантирана непрекъсваемост на услугите и регулаторна съвместимост.'
     }
   }
 ];

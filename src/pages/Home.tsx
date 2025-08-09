@@ -1,52 +1,79 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Code, Smartphone, Globe, Database } from 'lucide-react';
+import { ArrowRight, Globe, Shield, FileText, Link as LinkIcon, Activity, Users, Database } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const Home: React.FC = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
 
-  const featuredProjects = [
+  const energyHighlights = [
     {
-      title: 'E-Commerce Platform',
-      description: 'Modern online shopping experience with advanced features',
-      image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
-      category: 'Full Stack'
+      icon: <Globe className="h-8 w-8" />,
+      title: language === 'en' ? 'Market Platform (BGH Website)' : 'Пазарна платформа (Сайт на ГХБ)',
+      description:
+        language === 'en'
+          ? 'Public portal and client area with market data, registers, news and documents.'
+          : 'Публичен портал и зона за клиенти с пазарни данни, регистри, новини и документи.'
     },
     {
-      title: 'Mobile Banking App',
-      description: 'Secure and user-friendly mobile banking solution',
-      image: 'https://images.pexels.com/photos/4386321/pexels-photo-4386321.jpeg?auto=compress&cs=tinysrgb&w=800',
-      category: 'Mobile'
+      icon: <LinkIcon className="h-8 w-8" />,
+      title: language === 'en' ? 'Real-Time Integrations (Trayport/TSO)' : 'Интеграции в реално време (Trayport/ОПС)',
+      description:
+        language === 'en'
+          ? 'Bidirectional REST API communication with Trayport, TSO and market participants.'
+          : 'Двупосочна REST API комуникация с Trayport, ОПС и пазарните участници.'
     },
     {
-      title: 'Analytics Dashboard',
-      description: 'Real-time data visualization and reporting system',
-      image: 'https://img.freepik.com/premium-vector/comprehensive-analytics-dashboard-ui-with-diverse-data-visualization-user-interface-analytics-dashboard-featuring-variety-graphs-charts-efficient-data-management-monitoring_924480-25.jpg',
-      category: 'UI/UX'
+      icon: <Shield className="h-8 w-8" />,
+      title: language === 'en' ? 'Risk Management System (RMS) & Clearing' : 'Система за управление на риска (RMS) и клиринг',
+      description:
+        language === 'en'
+          ? 'Pre‑order validation with real‑time risk scoring, integrated with KELER CCP.'
+          : 'Pre‑order validation с оценка на риска в реално време, интеграция с KELER CCP.'
+    },
+    {
+      icon: <FileText className="h-8 w-8" />,
+      title: language === 'en' ? 'REMIT Reporting & IIP' : 'REMIT докладване и IIP',
+      description:
+        language === 'en'
+          ? 'Automated ACER reporting and Inside Information Platform with encrypted communication.'
+          : 'Автоматизирани ACER доклади и IIP платформа с криптирана комуникация.'
     }
   ];
 
+  // Нови услуги (различни от акцентите долу)
   const services = [
     {
-      icon: <Code className="h-8 w-8" />,
-      title: t('webDevelopment'),
-      description: t('webDevDescription')
+      icon: <Shield className="h-8 w-8" />,
+      title: language === 'en' ? 'Security & Compliance' : 'Сигурност и съвместимост',
+      description:
+        language === 'en'
+          ? 'Encryption, access control, audit trails and regulatory alignment (ACER/REMIT).'
+          : 'Криптиране, контрол на достъпа, одит следи и регулаторна съвместимост (ACER/REMIT).'
     },
     {
-      icon: <Smartphone className="h-8 w-8" />,
-      title: t('mobileApps'),
-      description: t('mobileAppsDescription')
+      icon: <Activity className="h-8 w-8" />,
+      title: language === 'en' ? 'Monitoring & Observability' : 'Мониторинг и наблюдаемост',
+      description:
+        language === 'en'
+          ? 'Metrics, logs, alerts and SLOs for high reliability and quick incident response.'
+          : 'Метрики, логове, аларми и SLO за висока надеждност и бърза реакция при инциденти.'
     },
     {
-      icon: <Globe className="h-8 w-8" />,
-      title: t('uiuxDesign'),
-      description: t('uiuxDescription')
+      icon: <Users className="h-8 w-8" />,
+      title: language === 'en' ? 'Client Access & Contracts' : 'Клиентски достъп и договори',
+      description:
+        language === 'en'
+          ? 'Profiles, roles, trading history, services, contract lifecycle and onboarding flows.'
+          : 'Профили, роли, история на търговията, услуги, жизнен цикъл на договори и onboarding.'
     },
     {
       icon: <Database className="h-8 w-8" />,
-      title: t('backendSystems'),
-      description: t('backendDescription')
+      title: language === 'en' ? 'Market Data Publishing' : 'Публикуване на пазарни данни',
+      description:
+        language === 'en'
+          ? 'High‑performance APIs and portals for market data distribution and caching.'
+          : 'Високопроизводителни API и портали за разпространение и кеширане на пазарни данни.'
     }
   ];
 
@@ -98,7 +125,7 @@ const Home: React.FC = () => {
         </div>
       </section>
 
-      {/* Featured Projects */}
+      {/* Energy Highlights (icons + descriptions) */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -110,28 +137,12 @@ const Home: React.FC = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {featuredProjects.map((project, index) => (
-              <div
-                key={index}
-                className="bg-white dark:bg-gray-900 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden"
-              >
-                <div className="relative h-48">
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    className="w-full h-full object-cover"
-                  />
-                  <div className="absolute top-4 left-4">
-                    <span className="bg-primary-600 text-white px-3 py-1 rounded-full text-sm font-medium">
-                      {project.category}
-                    </span>
-                  </div>
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white group-hover:text-primary-600 transition-colors">{project.title}</h3>
-                  <p className="text-gray-600 dark:text-gray-400">{project.description}</p>
-                </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {energyHighlights.map((item, index) => (
+              <div key={index} className="bg-white dark:bg-gray-900 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                <div className="text-primary-600 mb-4">{item.icon}</div>
+                <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">{item.title}</h3>
+                <p className="text-gray-600 dark:text-gray-400">{item.description}</p>
               </div>
             ))}
           </div>

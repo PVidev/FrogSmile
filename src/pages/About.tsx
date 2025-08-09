@@ -14,27 +14,27 @@ const About: React.FC = () => {
 
   const companyDescription = {
     en: {
-      title: "Our Expertise & Approach",
-      subtitle: "Building the Foundation of Digital Excellence",
+      title: "Energy Sector Expertise & Approach",
+      subtitle: "Secure, compliant and scalable platforms for market operations",
       paragraphs: [
-        "At the core of our company stands a dedicated team of experienced developers, architects, and technology enthusiasts with a strong foundation in building modern, scalable, and secure web infrastructures. With years of hands-on experience across various industries, our team specializes in designing and implementing robust RESTful API communications that power high-performance web and mobile applications.",
-        "We believe that a well-architected API is the backbone of any digital product. That's why we adhere to best practices in RESTful design, ensuring clean, consistent, and well-documented interfaces that enable seamless integration between front-end systems, back-end services, and third-party platforms. Our APIs are not just functional — they're built with scalability, performance, and future-proofing in mind.",
-        "Our development process follows industry-leading standards, including secure authentication protocols, efficient data structuring, and optimal request handling. We place a strong emphasis on maintainability, versioning strategies, and comprehensive testing to ensure our solutions remain stable as they evolve.",
-        "Beyond RESTful APIs, our team brings deep expertise in full-stack development, microservices architecture, cloud deployment, and DevOps automation. We don't just build software — we engineer solutions that grow with your business and adapt to your users' needs.",
-        "Whether you're a startup looking to launch your first MVP or an enterprise seeking to modernize legacy systems, we're here to help you achieve your goals with reliable technology, strategic thinking, and a collaborative spirit.",
-        "Let us bring your vision to life through clean code, thoughtful design, and a partnership grounded in trust and technical excellence."
+        "FrogSmile Ltd. specializes in the development of secure, sustainable and regulatory‑compliant information systems, including platforms for energy market operations and reporting.",
+        "Since 2019 we have been the technology partner of Balkan Gas Hub EAD, delivering end‑to‑end digital solutions for the organized market of the Bulgarian gas exchange.",
+        "Key deliveries include: public website and client area, core information system for transaction management with analytics and reporting, and real‑time integrations via REST APIs with Trayport, the Transmission System Operator (TSO) and market participants.",
+        "We engineered a Risk Management System (RMS) for pre‑order validation integrated with KELER CCP, enabling real‑time risk assessment and automated validation flows for clearing and settlement.",
+        "We built regulatory reporting platforms aligned with ACER and REMIT requirements: automated trade reporting and an IIP platform for publishing inside information, featuring encrypted communication and high reliability.",
+        "Our API‑first architecture, strong security posture and commitment to long‑term subscription support (with SLAs and on‑demand enhancements) ensure scalability, compliance and operational continuity."
       ]
     },
     bg: {
-      title: "Нашата Експертиза и Подход",
-      subtitle: "Изграждане на Основата на Дигитално Превъзходство",
+      title: "Експертиза в Енергийния Сектор",
+      subtitle: "Сигурни, регулаторно съвместими и мащабируеми платформи",
       paragraphs: [
-        "В основата на нашата компания стои екип от опитни разработчици, системни архитекти и технологични експерти с дългогодишен опит в изграждането на стабилни, мащабируеми и сигурни уеб инфраструктури. Специализираме в проектирането и реализацията на надеждни RESTful API комуникации, които стоят в основата на съвременните уеб и мобилни приложения.",
-        "Вярваме, че добре изграденото API е гръбнакът на всяка успешна дигитална платформа. Затова се придържаме към най-добрите практики в RESTful архитектурата – яснота, последователност и отлична документация, които улесняват безпроблемната интеграция между фронт-енд интерфейси, бек-енд услуги и външни системи. Нашите API решения са не просто функционални – те са изградени с мисъл за бъдещето, производителността и сигурността.",
-        "Процесът ни на разработка е базиран на водещи стандарти в индустрията – сигурна автентикация, ефективно структуриране на данни, оптимизирано управление на заявки, тестване и мониторинг. Поставяме силен акцент върху поддръжката, версионирането и лесната адаптация на решенията във времето.",
-        "Освен експертиза в RESTful API, нашият екип разполага с богат опит във фронт-енд и бек-енд разработка, микросървисна архитектура, облачно разгръщане (cloud deployment), CI/CD процеси и DevOps автоматизация. Не просто създаваме софтуер – ние разработваме устойчиви технологични решения, които растат заедно с Вашия бизнес.",
-        "Независимо дали сте стартираща компания с визия за иновация или утвърден бизнес, търсещ модернизация на съществуващи системи – ние сме тук, за да Ви подкрепим. С професионализъм, стратегическо мислене и отдаденост на резултата.",
-        "Доверете се на партньор, който комбинира опит, визия и технологична прецизност, за да превърне идеите Ви в реалност."
+        "„ФрогСмайл“ ЕООД е специализирана в разработката на сигурни, устойчиви и регулаторно съвместими информационни системи, включително платформи за управление на пазарни процеси и регулаторно докладване в енергетиката.",
+        "От 2019 г. сме технологичен партньор на „Газов Хъб Балкан“ ЕАД и доставяме цялостни дигитални решения за организирания пазар на българската газова борса.",
+        "Ключови реализации: публичен уебсайт и зона за клиенти, основна информационна система за управление на сделки с аналитични и справочни модули, интеграции в реално време чрез REST API с Trayport, ОПС и пазарните участници.",
+        "Създадохме система за управление на риска (RMS) за pre‑order validation, интегрирана с международната клирингова компания KELER CCP – с оценка на риска в реално време и автоматизирана валидация за клиринг и сетълмент.",
+        "Разработихме платформи за регулаторно докладване по REMIT, включително автоматизирано докладване на сделки и IIP платформа за вътрешна информация към ACER, с криптирана комуникация и висока надеждност.",
+        "Нашият API‑first подход, силен фокус върху сигурността и абонаментната поддръжка със SLA гарантират мащабируемост, съвместимост и оперативна непрекъсваемост."
       ]
     }
   };
